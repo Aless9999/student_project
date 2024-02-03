@@ -1,11 +1,19 @@
 package org.macnonline.student_project.domain;
 
-public class Adress {
+public class Address {
     private String postcode;
     private String street;
     private String building;
     private String extension;
     private String apartment;
+
+    public Address(String postcode, String street, String building, String extension, String apartment) {
+        this.postcode = postcode;
+        this.street = street;
+        this.building = building;
+        this.extension = extension;
+        this.apartment = apartment;
+    }
 
     public String getPostcode() {
         return postcode;

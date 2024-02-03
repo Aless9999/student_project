@@ -1,5 +1,6 @@
-package org.macnonline.student_project;
+package org.macnonline.student_project.validator;
 
+import org.macnonline.student_project.domain.StudentOrder;
 import org.macnonline.student_project.domain.AnswerStudentRegister;
 
 public class StudentValidator {

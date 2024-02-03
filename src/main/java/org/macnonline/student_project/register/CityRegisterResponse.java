@@ -1,9 +1,17 @@
-package org.macnonline.student_project.domain;
+package org.macnonline.student_project.register;
 
-public class CityRegisterCheckedResponce {
+public class CityRegisterResponse {
     private boolean existing;
     private Boolean temporal;
 
+
+    @Override
+    public String toString() {
+        return "CityRegisterCheckedResponse{" +
+                "existing=" + existing +
+                ", temporal=" + temporal +
+                '}';
+    }
 
     public boolean isExisting() {
         return existing;
