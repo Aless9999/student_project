@@ -56,6 +56,10 @@ h_street_code integer not null,
 h_building varchar (10) not null,
 h_extension varchar(10),
 h_apartment varchar(10),
+h_passport_seria varchar(10)not null,
+h_passport_number varchar(10)not null,
+h_passport_date date not null,
+h_passport_office_id integer not null,
 w_sur_name varchar (100) not null,
 w_given_name varchar(100)not null,
 w_patronymic varchar(100)not null,
@@ -65,6 +69,10 @@ w_street_code integer not null,
 w_building varchar (10) not null,
 w_extension varchar(10),
 w_apartment varchar(10),
+w_passport_seria varchar(10)not null,
+w_passport_number varchar(10)not null,
+w_passport_date date not null,
+w_passport_office_id integer not null,
 certificate_id varchar(20)not null,
 register_office_id integer not null,
 marriage_date date not null,
@@ -74,5 +82,22 @@ foreign key (w_street_code)references st_street(street_code)on delete restrict,
 foreign key (register_office_id)references st_register_office(r_office_id)on delete restrict
 )
 
+create table st_student_child(
+student_child_id serial,
+student_order_id integer not null,
+c_sur_name varchar (100) not null,
+c_given_name varchar(100)not null,
+c_patronymic varchar(100)not null,
+c_date_of_birth date not null,
+c_post_index varchar (10),
+c_street_code integer not null,
+c_building varchar (10) not null,
+c_extension varchar(10),
+c_apartment varchar(10),
+c_certificate_number varchar(10),
+c_certificate_date date not null,
+c_register_office_id integer not null
+
+)
 
 

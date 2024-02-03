@@ -4,40 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Marriage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/exception/CityRegisterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/exception/TransportException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/register/AnswerCityRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/register/AnswerCityRegisterItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/register/CityRegisterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/register/CityRegisterValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/register/FakeCityRegisterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/register/RealCityRegisterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_order.sql" afterDir="false" />
+    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/StudentOrderValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/StudentOrderValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Adult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Adult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerCheckChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerCheckChildren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerCityRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerStudentRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerStudentRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerWeddingRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/AnswerWeddingRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Children.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/CityRegisterCheckedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/register/CityRegisterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/StudentOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/email/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/email/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/ChildrenValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/ChildrenValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/CityRegisterChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/CityRegisterValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/FakeCityRegisterChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/RealCityRegisterChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/WeddingValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/validator/WeddingValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_order.sql" beforeDir="false" afterPath="$PROJECT_DIR$/student_order.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +91,14 @@
       <option name="presentableId" value="Default" />
       <updated>1706367004706</updated>
     </task>
+    <task id="LOCAL-00001" summary="add table">
+      <created>1706947425856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706947425856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +111,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
