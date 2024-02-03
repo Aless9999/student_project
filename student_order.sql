@@ -1,7 +1,11 @@
+drop table if exists st_student_child;
+drop table if exists st_student_order;
 DROP TABLE IF EXISTS st_passport_office;
 DROP TABLE IF EXISTS st_register_office;
 DROP TABLE IF EXISTS st_country_struct;
-DROP TABLE IF EXISTS st_street;
+drop table if exists st_street;
+drop table if exists st_address;
+
 
 CREATE TABLE st_street(
 	street_code integer not null,
@@ -80,7 +84,8 @@ primary key (student_order_id),
 foreign key (h_street_code)references st_street(street_code)on delete restrict,
 foreign key (w_street_code)references st_street(street_code)on delete restrict,
 foreign key (register_office_id)references st_register_office(r_office_id)on delete restrict
-)
+
+);
 
 create table st_student_child(
 student_child_id serial,
@@ -96,8 +101,12 @@ c_extension varchar(10),
 c_apartment varchar(10),
 c_certificate_number varchar(10),
 c_certificate_date date not null,
-c_register_office_id integer not null
+c_register_office_id integer not null,
+primary key (student_child_id),
+foreign key (c_street_code)references st_street(street_code)on delete restrict,
+foreign key (c_register_office_id)
+	references st_register_office(r_office_id)on delete restrict
 
-)
+);
 
 
