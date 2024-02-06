@@ -2,12 +2,13 @@ package org.macnonline.student_project.domain;
 
 public class Address {
     private String postcode;
-    private String street;
+    private Street street;
     private String building;
     private String extension;
     private String apartment;
 
-    public Address(String postcode, String street, String building, String extension, String apartment) {
+    public Address(String postcode, Street street, String building,
+                   String extension, String apartment) {
         this.postcode = postcode;
         this.street = street;
         this.building = building;
@@ -23,11 +24,11 @@ public class Address {
         this.postcode = postcode;
     }
 
-    public String getStreet() {
+    public Street getStreet() {
         return street;
     }
 
-    public void setStreet(String street) {
+    public void setStreet(Street street) {
         this.street = street;
     }
 

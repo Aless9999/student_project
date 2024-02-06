@@ -1,20 +1,21 @@
 package org.macnonline.student_project;
 
-import org.macnonline.student_project.domain.Address;
-import org.macnonline.student_project.domain.Adult;
-import org.macnonline.student_project.domain.Child;
-import org.macnonline.student_project.domain.StudentOrder;
+import org.macnonline.student_project.dao.DictionaryDaoImpl;
+import org.macnonline.student_project.domain.*;
+import org.macnonline.student_project.exception.DaoException;
 
+import java.sql.*;
 import java.time.LocalDate;
 
 public class SaveStudentOrder {
 
 
-    public static void main(String[] args) {
-        StudentOrder studentOrder;
-        studentOrder = new StudentOrder();
-        long ans = saveStudentOrder(studentOrder);
-        System.out.println(ans);
+    public static void main(String[] args) throws DaoException {
+
+        DictionaryDaoImpl dao=new DictionaryDaoImpl();
+        dao.findStreets("g").stream()
+                .map(g->g.getStreetName())
+                .forEach(System.out::println);
 
     }
 
@@ -32,7 +33,9 @@ public class SaveStudentOrder {
         so.setMarriageDate(LocalDate.of(2016, 7, 4));
         so.setMarriageOffice("Отдел ЗАГС");
 
-        Address address = new Address("195000", "Заневский пр.", "12", "", "142");
+        Street street = new Street(1, "Stavanger");
+
+        Address address = new Address("195000", street, "12", "", "142");
         // husband
         Adult husband = new Adult("Virodov", "Ivan", "Alekseevich", LocalDate.of(1990, 4, 5));
         husband.setPasswordNumber("" + 100 + id);
@@ -59,7 +62,7 @@ public class SaveStudentOrder {
         child1.setAddress(address);
 
 
-        Child child2= new Child("Virodova", "Мария", "Ivanovna", LocalDate.of(2017, 9, 4));
+        Child child2 = new Child("Virodova", "Мария", "Ivanovna", LocalDate.of(2017, 9, 4));
         child2.setCertificateNumber("" + 4000 + id);
         child2.setIssueDate(LocalDate.of(2018, 9, 4));
         child2.setIssueDepartment("Отдел ЗАГС");

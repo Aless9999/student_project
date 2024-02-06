@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add table">
+    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add driver postgresql">
+      <change afterPath="$PROJECT_DIR$/src/dao.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Street.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/exception/DaoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Address.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Aless/projects/postgresql-42.7.1.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aless/projects/postgresql-42.7.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.macnonline.student_project.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentOrderValidator">
+  <component name="RunManager" selected="Application.SaveStudentOrder">
     <configuration name="SaveStudentOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.macnonline.student_project.SaveStudentOrder" />
       <module name="student_project" />
@@ -80,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentOrderValidator" />
         <item itemvalue="Application.SaveStudentOrder" />
+        <item itemvalue="Application.StudentOrderValidator" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706950274281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add driver postgresql">
+      <created>1706960436402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706960436402</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add table" />
+    <MESSAGE value="add driver postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="add driver postgresql" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
