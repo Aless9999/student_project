@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add driver postgresql">
-      <change afterPath="$PROJECT_DIR$/src/dao.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Street.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/exception/DaoException.java" afterDir="false" />
+    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add external property file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/CountryArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/PassportOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/RegisterOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Adult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Adult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/StudentOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +50,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Aless/projects/postgresql-42.7.1.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706960436402</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add external property file">
+      <created>1707205624142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707205624142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add table" />
     <MESSAGE value="add driver postgresql" />
-    <option name="LAST_COMMIT_MESSAGE" value="add driver postgresql" />
+    <MESSAGE value="add external property file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add external property file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

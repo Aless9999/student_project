@@ -13,8 +13,15 @@ public class SaveStudentOrder {
     public static void main(String[] args) throws DaoException {
 
         DictionaryDaoImpl dao=new DictionaryDaoImpl();
-        dao.findStreets("g").stream()
-                .map(g->g.getStreetName())
+        dao.findStreets("гороховая").stream()
+                .map(Street::getStreetName)
+                .forEach(System.out::println);
+        dao.findPassportOffice("010020000000").stream()
+                .map(PassportOffice::getOfficeName)
+                .forEach(System.out::println);
+
+        dao.findRegisterOffice("020010010001").stream()
+                .map(RegisterOffice::getOfficeName)
                 .forEach(System.out::println);
 
     }
@@ -28,10 +35,11 @@ public class SaveStudentOrder {
 
     public static StudentOrder buildStudentOrder(long id) {
         StudentOrder so = new StudentOrder();
+        RegisterOffice registerOffice=new RegisterOffice();
         so.setStudentOrderId(id);
         so.setMarriageCertificated("" + 123456000 + id);
         so.setMarriageDate(LocalDate.of(2016, 7, 4));
-        so.setMarriageOffice("Отдел ЗАГС");
+        so.setMarriageOffice(registerOffice);
 
         Street street = new Street(1, "Stavanger");
 
@@ -41,7 +49,7 @@ public class SaveStudentOrder {
         husband.setPasswordNumber("" + 100 + id);
         husband.setPasswordSerial("" + 100000 + id);
         husband.setIssueDate(LocalDate.of(2013, 3, 5));
-        husband.setIssueDepartment("Отдел полиции № " + id);
+        husband.setPassportOffice(new PassportOffice(1,"2","Отдел полиции № " + id));
         husband.setStudentId("" + 100000 + id);
         husband.setAddress(address);
 
@@ -50,7 +58,7 @@ public class SaveStudentOrder {
         wife.setPasswordNumber("" + 200 + id);
         wife.setPasswordSerial("" + 200000 + id);
         wife.setIssueDate(LocalDate.of(2006, 6, 9));
-        wife.setIssueDepartment("Отдел полиции № " + id);
+//        wife.setPassportOffice("Отдел полиции № " + id);
         wife.setStudentId("" + 200000 + id);
         wife.setAddress(address);
 
@@ -58,14 +66,14 @@ public class SaveStudentOrder {
         Child child1 = new Child("Virodova", "Elena", "Ivanovna", LocalDate.of(2017, 9, 4));
         child1.setCertificateNumber("" + 3000 + id);
         child1.setIssueDate(LocalDate.of(2017, 10, 4));
-        child1.setIssueDepartment("Отдел ЗАГС");
+//        child1.setRegisterOffice("Отдел ЗАГС");
         child1.setAddress(address);
 
 
         Child child2 = new Child("Virodova", "Мария", "Ivanovna", LocalDate.of(2017, 9, 4));
         child2.setCertificateNumber("" + 4000 + id);
         child2.setIssueDate(LocalDate.of(2018, 9, 4));
-        child2.setIssueDepartment("Отдел ЗАГС");
+//        child2.setRegisterOffice("Отдел ЗАГС");
         child2.setAddress(address);
 
         so.setHusband(husband);
