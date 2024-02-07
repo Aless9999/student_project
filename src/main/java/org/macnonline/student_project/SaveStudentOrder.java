@@ -24,6 +24,10 @@ public class SaveStudentOrder {
                 .map(RegisterOffice::getOfficeName)
                 .forEach(System.out::println);
 
+        dao.findCountryArea("020010000000").stream()
+                .map(CountryArea::getCountryName)
+                .forEach(System.out::println);
+
     }
 
     public static Long saveStudentOrder(StudentOrder studentOrder) {

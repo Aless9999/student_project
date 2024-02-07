@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add external property file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/CountryArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/PassportOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/RegisterOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_data.sql" afterDir="false" />
+    <list default="true" id="b2886015-c2b1-4873-8636-674c2ab20950" name="Changes" comment="add get function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/SaveStudentOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/dao/DictionaryDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Adult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Adult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/macnonline/student_project/domain/StudentOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707205624142</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add get function">
+      <created>1707283459788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707283459788</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +156,8 @@
     <MESSAGE value="add table" />
     <MESSAGE value="add driver postgresql" />
     <MESSAGE value="add external property file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add external property file" />
+    <MESSAGE value="add get function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get function" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
